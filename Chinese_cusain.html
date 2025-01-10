@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="An Online Food Store">
+        <title>Akshaypathra</title>
+        <link rel="icon" href="Store Logo_3.png" type="image/x-icon">
+        <link rel="stylesheet" href="food_store.css" type="text/css">
+    </head>
+    <body>
+        <img src="img/logo.png" alt="Akshayapathra" title="Akshayapathra" width="200" height="200">
+        <h1>Akshaypathra</h1>
+        <p>Any Time Food - To Any Where</p>
+        <hr>
+        <br>
+        <table>
+            <caption>Menu Card</caption>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>
+                    Fried Rice
+                </td>
+                <td>
+                    120/-
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Chow mein
+                </td>
+                <td>
+                    260/-
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Wonton soup
+                </td>
+                <td>
+                    340/-
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Kung Pao chiken
+                </td>
+                <td>
+                    220/-
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Char siu
+                </td>
+                <td>
+                    280/-
+                </td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+        <article>
+            <h2>Orders</h2>
+            <p>
+                Make Your Orders...
+            </p>
+            <form action="http://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Order Please...</legend>
+                <p>
+                    <label for="item">Choose Item:</label>
+                    <select name="item" id="item">
+                        <option value=" "> </option>
+                        <option value="Fried Rice">Fried Rice</option>
+                        <option value="Chow mein">Chow mein</option>
+                        <option value="Wonton soup">Wonton soup</option>
+                        <option value="Kung Pao chiken">Kung Pao chiken</option>
+                        <option value="Char siu">Char siu</option>
+                    </select>
+                </p>
+                <p>
+                        <label for="order">No.of Items:</label>
+                        <input type="number" name="order" id="order" min="1" max="20" step="1" value="1">
+                </p>
+                </fieldset>
+            </form>
+            <fieldset>
+                <legend>Proceed for Payment</legend>
+                <a href="Payment_Sheet.html">PAY</a>
+            </fieldset>
+        </article>
+        <br>
+        <p>
+            All Copy rights Reserved &copy;
+        </p>
+    </body>
+</html>
+        
+    

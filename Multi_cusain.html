@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="An Online Food Store">
+        <title>Akshaypathra</title>
+        <link rel="icon" href="Store Logo_3.png" type="image/x-icon">
+        <link rel="stylesheet" href="food_store.css" type="text/css">
+    </head>
+    <body>
+        <img src="img/logo.png" alt="Akshayapathra" title="Akshayapathra" width="500" height="400">
+        <h1>Akshaypathra</h1>
+        <p>Any Time Food - To Any Where</p>
+        <hr>
+        <br>
+        <table>
+            <caption>Menu Card</caption>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>
+                    Chicken Noodels
+                </td>
+                <td>
+                    160/-
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Egg Fried Rice
+                </td>
+                <td>
+                    90/-
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gobi 65
+                </td>
+                <td>
+                    120/-
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gobi Manchurian
+                </td>
+                <td>
+                    120/-
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Veg Noodels
+                </td>
+                <td>
+                    120/-
+                </td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+        <article>
+            <h2>Orders</h2>
+            <p>
+                Make Your Orders...
+            </p>
+            <form action="http://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Order Please...</legend>
+                <p>
+                    <label for="item">Choose Item:</label>
+                    <select name="item" id="item">
+                        <option value=" "> </option>
+                        <option value="Chicken Noodels">Chicken Noodels</option>
+                        <option value="Egg Fried Rice">Egg Fried Rice</option>
+                        <option value="Gobi 65">Gobi 65</option>
+                        <option value="Gobi Manchurian">Gobi Manchurian</option>
+                        <option value="Veg Noodels">Veg Noodels</option>
+                    </select>
+                </p>
+                <p>
+                        <label for="order">No.of Items:</label>
+                        <input type="number" name="order" id="order" min="1" max="20" step="1" value="1">
+                </p>
+                </fieldset>
+            </form>
+            <fieldset>
+                <legend>Proceed for Payment</legend>
+                <a href="Payment_Sheet.html">PAY</a>
+            </fieldset>
+        </article>
+        <br>
+        <p>
+            All Copy rights Reserved &copy;
+        </p>
+    </body>
+
+</html>

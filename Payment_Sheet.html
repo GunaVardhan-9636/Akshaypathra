@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="An Online Food Store">
+        <title>Akshaypathra</title>
+        <link rel="icon" href="Store Logo_3.png" type="image/x-icon">
+        <link rel="stylesheet" href="food_store.css" type="text/css">
+    </head>
+    <body>
+        <img src="img/logo.png" alt="Akshayapathra" title="Akshayapathra" width="200" height="200">
+        <h1>Akshaypathra</h1>
+        <p>Any Time Food - To Any Where</p>
+        <hr>
+        <article>
+            <fieldset>
+                <legend><h2>Finalise Payment</h2></legend>
+                <p>
+                    No Cashbacks and All Taxes are Applied
+                </p>
+                <br>
+                <form action="https://httpbin.org/get" method="get">
+                    <p>
+                        <label for="cardnumber">Card Number</label>
+                        <input type="text" name="Cardnumber" id="" placeholder="Card Number" required>
+                    </p>
+                    <p>
+                        <label for="lastdate">Expiry date</label>
+                        <input type="date" name="lastdate" id="lastdate" palceholder="MM/YY" pattren="[0-9]{2}/[0-9]{2}" required>
+                    </p>
+                    <p>
+                        <label for="code">Security code</label>
+                        <input type="text" name="code" id="code" placeholder="CVC" required>
+                    </p>
+                    <p>
+                        <label for="item">Country:</label>
+                        <select name="item" id="item">
+                            <option value="India" selected>India</option>
+                            <option value="America">America</option>
+                            <option value="Srilanka">Srilanka</option>
+                            <option value="China">China</option>
+                            <option value="Pakistan">Pakistan</option>
+                        </select>
+                    </p>
+                    <button type="submit">Proceed</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </fieldset>  
+        </article>
+        <br>
+        <p>
+            All Copy rights Reserved &copy;
+        </p>
+    </body>
+</html>
